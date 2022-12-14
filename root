@@ -1,0 +1,19 @@
+<style>
+         :root {
+             --color-white: #fff;
+             --color-black: #333;
+             --color-gray: #75787b;
+             --color-gray-light: #bbb;
+             --color-gray-disabled: #75787b;
+             --color-green: #53a318;
+             --color-green-dark: #75787b;
+             --font-size-small: .75rem;
+             //--font-size-default: .875rem;
+         }
+            }
+
+         .progress-bar-new .is-active:before,
+         .progress-bar-new li:hover:before,
+         .progress-bar-new .is-hovered:before {
+             background-color: var(--color-white);
+             border-color: var(--color-green);
